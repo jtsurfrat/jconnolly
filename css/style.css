@@ -89,6 +89,12 @@ footer {
   color: #999;
 }
 
+.social_icon {
+  width: 20px;
+  height: 0 5px;
+  margin: 0 5px;
+}
+
 /*************************
 PAGE: PORTFOLIO
 ************************/

@@ -31,6 +31,6 @@ nav {
   background: #599a68;
 }
 
-nav a {
+nav a, nav a:visited {
   color: #fff;
 }

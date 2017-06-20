@@ -1,36 +1,88 @@
-a {
-  text-decoration: none;
-}
+/*@import url(//db.onlinewebfonts.com/c/eaf97b4f476e6bb0485a27c26607f588?family=Changa+One);
+
+@font-face {font-family: "Changa One";
+    src: url("//db.onlinewebfonts.com/t/eaf97b4f476e6bb0485a27c26607f588.eot");
+    src: url("//db.onlinewebfonts.com/t/eaf97b4f476e6bb0485a27c26607f588.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/eaf97b4f476e6bb0485a27c26607f588.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/eaf97b4f476e6bb0485a27c26607f588.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/eaf97b4f476e6bb0485a27c26607f588.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/eaf97b4f476e6bb0485a27c26607f588.svg#Changa One") format("svg");
+}*/
+
+/*******************
+GENERAL
+*******************/
 
 .wrapper {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
-  background-color: yellow;
+  /*background-color: yellow;*/
 }
+
+a {
+  text-decoration: none;
+}
+
+
+/*************************
+HEADING
+************************/
 
 #logo {
   text-align: center;
   margin: 0;
 }
 
-a {
-  color: #6ab47b;
+/*************************
+COLORS
+************************/
+
+
+/* site body */
+
+body {
+  background-color: #D3D3D3;
+  color: #999;
 }
+
+/* green header */
 
 header {
   background: #6ab47b;
   border-color: #599a68;
 }
 
-h1, h2 {
-  color: #fff;
-}
+/* nav background on mobile devices */
 
 nav {
   background: #599a68;
 }
 
+/* logo text */
+
+h1, h2 {
+  color: #fff;
+  color: #E7E4E4;
+  font-family: "Changa One";
+  font-weight: 400;
+}
+
+/* links */
+
+a {
+  color: #6ab47b;
+}
+
+
+/* nave links */
 nav a, nav a:visited {
   color: #fff;
+  color: #E7E4E4;
+}
+
+/* selected nav link */
+
+nav a.selected, nav a:hover {
+  color: #32673f;
 }

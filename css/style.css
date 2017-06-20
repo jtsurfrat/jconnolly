@@ -1,0 +1,9 @@
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  background-color: yellow;
+  max-width: 940px;
+  margin: 0 auto;
+}

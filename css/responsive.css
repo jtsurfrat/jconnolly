@@ -33,6 +33,17 @@
     margin: 0 5% 80px 0;
   }
 
+  /*************************
+  NAVIGATION FONT COLOR
+  ************************/
+
+  nav a.selected, nav a:hover {
+    /*color: #32673f;*/
+    /*color: #0583aa;*/
+    /*color: #057295;*/
+    color: #045b77;
+  }
+
 }
 
 @media screen and (min-width: 660px){
@@ -66,9 +77,24 @@
   }
 
   header {
-    border-bottom: 5px solid #599a68;
+    /*border-bottom: 5px solid #599a68;*/
+    border-bottom: 5px solid #0583aa;
     margin-bottom: 60px;
   }
+
+
+    /*************************
+    NAVIGATION FONT COLOR
+    ************************/
+
+  nav a.selected, nav a:hover {
+    /*color: #32673f;*/
+    color: #0583aa;
+    /*color: #057295;*/
+    /*color: #045b77;*/
+  }
+
+}
 }
 
 
